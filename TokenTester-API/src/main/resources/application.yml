@@ -1,0 +1,7 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /token
+jwt:
+  token:
+    secret: TXkgT3duIGN1c3RvbSBLZXkgRm9yIEpXVCBnZW5lcmF0aW9uIGZvciBBbHRpbWV0cmlrIHVzZSBjYXNlIGFwcGxpY2F0aW9u
