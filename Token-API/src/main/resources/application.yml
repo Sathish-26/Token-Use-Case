@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /token
+    
+api:
+  version: v1
+
+jwt:
+  token:
+    secret: TXkgT3duIGN1c3RvbSBLZXkgRm9yIEpXVCBnZW5lcmF0aW9uIGZvciBBbHRpbWV0cmlrIHVzZSBjYXNlIGFwcGxpY2F0aW9u
+    expirationTime: 300000
